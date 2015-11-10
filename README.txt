@@ -1,4 +1,7 @@
 # First_Placeholder
+
+CV issue d'un précédent exercice
+
 1- Clone du dossier First_Placeholder en local à l'aide de Linux et de la console.
 2- Création fichier HTML et CSS (dans un dossier) à l'aide de la console.
 3- Copie des codes HTML et CSS d'un précédent exercice d'OpenClassRooms.
@@ -10,3 +13,4 @@ d'informations pour les correcteurs et pour effectuer un pull sur mon local
 un message afin de garder une lecture facile sur console dans un fichier texte.
 J'espère avoir exécuté l'exercice comme il vous convient ! :p
 Bon courage pour la suite !
+7- Mise à jour du fichier README.txt
