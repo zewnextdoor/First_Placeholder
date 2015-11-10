@@ -1,0 +1,179 @@
+* {
+    word-wrap: break-word;
+}
+@font-face {
+    font-family: 'Titre';
+    src: url('polices/Windsong-webfont.eot');
+    src: url('polices/Windsong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Windsong-webfont.woff') format('woff'),
+         url('polices/Windsong-webfont.ttf') format('truetype'),
+         url('polices/Windsong-webfont.svg#windsongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: Arial;
+    border-right: 2px green solid;
+    background: grey;
+    overflow:auto;
+}
+#liseret aside, #liseret figure {
+    margin:0;
+}
+#citrouille_image img {
+    position: absolute;
+}
+#main_header {
+    border-top: 3px #ecf5ec solid;
+    border-left: 3px #ecf5ec solid;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 3%;
+}
+#main_content_margin {
+    margin-left: 1%;
+}
+header p {
+    text-shadow: 15px 15px 10px green;  
+}
+article {
+    float: left;
+    width: 30%;
+}
+h1 {
+    font-family: 'Titre', Arial;
+    font-size: 5em;
+    color:#ffa200;
+    display:inline-block;  
+    margin:20px 0;
+    padding-left:10px;
+}
+h2 {
+    color: #774242;
+    text-align:center;
+}
+h3 {
+    color: #c56d6d;
+    margin-left: 20%;
+}
+a {
+    color: #1e7abb;
+    text-decoration:none;
+    font-weight: bold;
+}
+a:visited {
+    color: #C10000;
+}
+a:hover {
+    text-decoration:underline;
+    color: #C10000;
+}
+ul {
+    margin-left: 10%;
+    list-style-type: circle;
+    background-color: #ecf5ec;
+    padding: 10px 15px 10px 0 ;
+}
+li {
+    padding-left:10px;
+    margin-bottom: 10px;
+    width:100%;
+    display: inline-block;
+}
+strong {
+    font-style: italic;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+span {
+    font-size: 0.9em;
+    margin-left:5%;
+    margin-right: 10px;
+    display:inline-block;  
+}
+.hide_1024 {
+    display:none;
+}
+.list_level span {
+     float: right;
+}    
+.list_year div {
+    margin: 0;
+    display:inline-block;
+}
+.list_year p {
+    text-align:right;
+    width: 70%;
+    float: right;
+    margin: 0;
+}
+.list_year span {
+    width: 30%;
+    margin: 0;
+}
+#personal_quote {
+    padding-bottom: 10px;
+    margin: 15px 20% 15px ;
+}
+#photo_cv {
+    margin:0;
+    margin-top: 3%;
+    margin-right: 5%;
+    float: right;
+    box-shadow: 5px 5px 10px green;  
+}
+@media screen and (max-width:1023px) {
+  .hide_1024 {
+      display:block;
+  }
+  #liseret {
+    display:none;
+  }
+  #main_header {
+    margin: 0;
+  }
+  #personal_quote {
+    margin-left: 10%;
+  }
+  article {
+    width: 80%;
+  }
+  .list_year span {
+    width: 100%;
+    margin: 1% auto;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .list_year p {
+    width: 100%;
+    text-align: center;
+  }
+  .list_level span {
+    padding-right: 5%;
+  }
+  .list_level strong {
+    padding-left: 5%;
+  }
+  h2 {
+    margin-left: 10%;
+  }
+  h3 {
+    margin-left: 10%;
+    text-align: center;  
+  }
+}
+@media screen and (max-width:600px) {
+  #photo_cv {
+    display:none;
+  }
+  h1 {
+    width:100%;
+    text-align: center;
+  }
+  #personal_quote {
+    width: 80%;
+    text-align: center;
+  }
+}
